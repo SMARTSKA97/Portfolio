@@ -4,6 +4,17 @@
     color: aqua;
 }
 
+div
+{
+    display: inline-block;
+}
+
+div > h1
+{
+    display: inline-block;
+}
+
+
 h1
 {
     color:blue;
@@ -25,3 +36,27 @@ h1
     height: 100px;
     width: 100px;
 }
+
+div > footer
+{
+    height:200px;
+    width: 100%;
+    background-color: salmon;
+    clear: both;
+    align-content: center;
+}
+
+.endnote
+{
+    height:200px;
+    width: 100%;
+    background-color: salmon;
+    clear: both;
+    align-content: center;
+}
+
+div > soft
+{
+    float:left;
+}
+
